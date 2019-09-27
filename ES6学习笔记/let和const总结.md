@@ -1,3 +1,5 @@
+[TOC]
+
 # let const
 
 ## 1. let要好好用
@@ -75,14 +77,14 @@ let i = 3;
 var tmp = 123;
 if (true) {
     tmp = 'abc';
-    let = tmp;
+    let tmp;
     console.log(tmp);
 }
 ```
 
 运行结果截图：
 
-![1569291860201](C:\Users\zgc\AppData\Local\Temp\1569291860201.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190927105334802.png)
 
 在使用 `let` 声明之前就执行`tep = 'abc'; ` 使用了变量 `tmp` 导致出现引用错误。
 
@@ -98,7 +100,7 @@ if (true) {
 
 运行结果截图：
 
-![1569293360309](C:\Users\zgc\AppData\Local\Temp\1569293360309.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190927105411811.png)
 
 `if` 语句块内的 `tmp` 变量和外面的 `tmp` 变量并不是一个变量，它们两个没有半毛钱的关系，在 `if` 语句块内声明了 `tmp` 但是并没有赋值，故输出 `undefined`.
 
@@ -217,9 +219,7 @@ console.log(i); // 输出10
 
 运行结果：
 
-![1569298109298](C:\Users\zgc\AppData\Local\Temp\1569298109298.png)
-
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190927105506731.png)
 
 tmp是一个局部变量，在外部无法访问内部的变量，故输出undefined。
 
@@ -299,8 +299,7 @@ function f () {
 ```
 
 运行结果：
-
-![1569307828927](C:\Users\zgc\AppData\Local\Temp\1569307828927.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019092710564547.png)
 
 在` chrome，IE edge ，Firefox `下和上述结果是一致的，应该是 `ES6` 环境。
 

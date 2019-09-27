@@ -1,5 +1,3 @@
-[TOC]
-
 # let const
 
 ## 1. let要好好用

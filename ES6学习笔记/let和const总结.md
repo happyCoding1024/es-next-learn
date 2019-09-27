@@ -299,6 +299,7 @@ function f () {
 ```
 
 运行结果：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019092710564547.png)
 
 在` chrome，IE edge ，Firefox `下和上述结果是一致的，应该是 `ES6` 环境。

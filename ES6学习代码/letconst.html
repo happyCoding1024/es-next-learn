@@ -6,11 +6,19 @@
 </head>
 <body>
 	<script type="text/javascript">
-
-	{
-		 tmp =2
-	}
-	console.log(tmp);
+		// ES6环境
+		function f () {
+			console.log("I am outside");
+		}
+		(function () {
+			var f = undefined; // 在ES6环境下同样也是提前了，但是函数体并没有提前
+			if (false) {
+				function f() {
+					console.log("I am inside"); // 函数f声明提前，注意在ES5下函数体也提前了
+				}
+			}
+			f();
+		}());
 	</script>
 	
 </body>

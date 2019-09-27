@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数参数的解构</title>
+</head>
+<body>
+<script type="text/javascript">
+    // function f([x, y]) {
+    //     return [x, y];
+    // }
+    // console.log(f([2, 3]));
+
+    // function f({x = 0, y = 0} = {}) {
+    //     return {x, y};
+    // }
+    // console.log(f({x: undefined, y: 1}));
+
+    function f({x, y} = {x: 0, y: 0}) {
+        return {x, y};
+    }
+    console.log(f());
+
+
+
+</script>
+
+</body>
+</html>

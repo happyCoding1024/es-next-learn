@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113318c8-64e8-4d1e-9bad-9076fe844399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ES6学习代码/函数的扩展.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6学习代码/字符串的扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/ES6学习代码/字符串的扩展.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +48,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6学习代码/函数的扩展.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="132">
               <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
@@ -225,7 +223,7 @@
       <workItem from="1570260671828" duration="989000" />
       <workItem from="1570521323073" duration="11147000" />
       <workItem from="1570621964333" duration="3999000" />
-      <workItem from="1570793921002" duration="2370000" />
+      <workItem from="1570793921002" duration="3301000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1569507379658</created>
@@ -416,17 +414,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570625617294</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update">
+      <created>1570800506014</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570800506014</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33229000" />
+    <option name="totallyTimeSpent" value="34160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -440,7 +445,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,7 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6学习代码/函数的扩展.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="132">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>

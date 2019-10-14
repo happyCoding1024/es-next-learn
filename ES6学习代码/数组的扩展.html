@@ -6,15 +6,15 @@
 </head>
 <body>
 <script type="text/javascript">
-    var arr = [1, 2, 3];
+    var arr = [1, 2, 3, NaN];
     function hasValue(arr, value) {
         if (arr.indexOf(value) === -1) {
-            console.log(value + " is not in " + arr);
+            console.log(value + " is not in [" + arr + "]");
         } else {
-            console.log(value + " is in " + arr);
+            console.log(value + " is in [" + arr + "]");
         }
     }
-    hasValue(arr, 4);
+    hasValue(arr, NaN);
 </script>
 
 </body>

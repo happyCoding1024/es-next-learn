@@ -6,10 +6,15 @@
 </head>
 <body>
 <script type="text/javascript">
-    function f(x=1, y) {
-        return [x, y];
+    // function f(x=1, y) {
+    //     return [x, y];
+    // }
+    // console.log(f(undefined, 2));
+
+    function f(...items) {
+        console.log(items);
     }
-    console.log(f(undefined, 2));
+    f([1,2,3]);
 </script>
 
 </body>

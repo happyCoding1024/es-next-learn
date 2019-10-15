@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象的扩展</title>
+</head>
+<body>
+<script type="text/javascript">
+   var lastword = 'last word';
+    var a = {
+        "first word": "hello",
+        [lastword]: "world"
+    };
+
+    console.log(a['last word']);
+    console.log(a[lastword]);
+</script>
+
+</body>
+</html>

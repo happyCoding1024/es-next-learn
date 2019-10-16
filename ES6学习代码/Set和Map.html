@@ -31,9 +31,29 @@
     // console.log(map.get(o1)); // o1和o是两个不同的对象，注意只要牵扯到对象的时候就要想到对象的引用值。
 
     // 对于基本数据类型的值是值的比较，对象是引用的比较
-    var map = new Map();
-    map.set(1, 'a').set(2, 'b').set(3, 'b');
-    var map1 = new Map([...map].map(([u, v]) => [u*2, 'yeah_' + 'v'] ));
+    // var map = new Map();
+    // map.set(1, 'a').set(2, 'b').set(3, 'b');
+    // var map1 = new Map([...map].map(([u, v]) => [u*2, 'yeah_' + 'v'] ));
+    //
+    // map1.forEach( function (key, value, map) {
+    //     console.log("key: %d, value: %s", key, value);
+    // });
+
+    // 对象转为Map
+
+    function objToMap(obj) {
+        let map = new Map();
+        for(let key of Object.keys(obj)) {
+            map.set(key, obj[key]);
+        }
+        return map;
+    }
+    let obj = {
+        a: 1,
+        b: 2
+    };
+
+    console.log(objToMap(obj));
 
 </script>
 

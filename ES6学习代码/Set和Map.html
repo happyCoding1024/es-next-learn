@@ -14,12 +14,30 @@
     // console.log([...new Set(arr)]);
     // console.log(Array.from(new Set(arr)));
     // Set 遍历
-    let set = new Set(['red', 'blue', 'green']);
-    for (let item of set.keys()) {
-        console.log(item);
-    }
+    // let set = new Set(['red', 'blue', 'green']);
+    // for (let item of set.keys()) {
+    //     console.log(item);
+    // }
+    // Map
+    // let map = new Map();
+    // let o = {
+    //     "p" : "hello world"
+    // };
+    // map.set(o, 'content');
+    // o1 = {
+    //     "p" : "hello world"
+    // };
+    // map.get(o1);
+    // console.log(map.get(o1)); // o1和o是两个不同的对象，注意只要牵扯到对象的时候就要想到对象的引用值。
 
-
+    // 对于基本数据类型的值是值的比较，对象是引用的比较
+    var map = new Map();
+    var a = 1;
+    var b = 2;
+    var c = 3
+    var map1 = map.set(a, 'a');
+    var map2 = map.set(b, 'b');
+    var map3 = map.set(c, 'c');
 </script>
 
 </body>

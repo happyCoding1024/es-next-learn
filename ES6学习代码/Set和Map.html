@@ -32,12 +32,9 @@
 
     // 对于基本数据类型的值是值的比较，对象是引用的比较
     var map = new Map();
-    var a = 1;
-    var b = 2;
-    var c = 3
-    var map1 = map.set(a, 'a');
-    var map2 = map.set(b, 'b');
-    var map3 = map.set(c, 'c');
+    map.set(1, 'a').set(2, 'b').set(3, 'b');
+    var map1 = new Map([...map].map(([u, v]) => [u*2, 'yeah_' + 'v'] ));
+
 </script>
 
 </body>

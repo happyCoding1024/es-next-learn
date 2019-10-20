@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>promise对象</title>
+</head>
+<body>
+<script type="text/javascript">
+   //  let promise = new Promise(function (resolve, reject) {
+   //      console.log("Promise");
+   //      resolve();
+   //  });
+   //
+   // let promise1 = promise.then(function () {
+   //      console.log("resolved");
+   //  });
+   //
+   //  promise1.then(function() {
+   //         console.log("zhixing")
+   //     });
+   //
+   //  console.log("Hi");
+
+
+    // 验证then方法返回值的传递
+
+   function createPromise(status) {
+        var p = new Promise(function (resolve, reject) {
+            if (status === "Resolved") {
+                resolve()
+            } else {
+                reject();
+            }
+        });
+        return p;
+    }
+   createPromise("Resolved").then(function () {
+        return createPromise("Resolved");
+    }).then(function () {
+        console.log("前一个回调函数的返回值promise实例的状态是'Resolved'");
+    }, function () {
+        console.log("前一个回调函数的返回值promise实例的状态是'Rejected'");
+   });
+
+
+   // let promise = new Promise( function (resolve, reject) {
+   //     resolve();
+   //     console.log("promise");
+   // });
+   //
+   // let promise_then = promise.then(function () {
+   //     console.log("promise_then");
+   // });
+   //
+   // promise_then.then(function () {
+   //     console.log("promise_then_then")
+   // });
+
+   // let promise = new Promise( (resolve, reject) => {
+   //     resolve();
+   //     console.log("promise");
+   // });
+   // promise.then(
+   //     () => console.log("promise_then")
+   // ).then(
+   //     () => console.log("promise_then_then")
+   // );
+
+
+
+</script>
+
+</body>
+</html>

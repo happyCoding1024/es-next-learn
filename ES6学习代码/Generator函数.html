@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator函数</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    // function *foo() {
+    //     yield 2;
+    //     yield 3;
+    //     // return 'foo';
+    // }
+    let arr = [1, 2, 3]
+    function *bar() {
+        yield 'a';
+        yield *arr;
+        yield 'b';
+    }
+
+    let it = bar();
+    it.next();
+    console.log(it.next());
+    console.log(it.next());
+    console.log(it.next());
+    console.log(it.next());
+    console.log(it.next());
+    console.log(it.next());
+    console.log(it.next());
+
+</script>
+
+</body>
+</html>
